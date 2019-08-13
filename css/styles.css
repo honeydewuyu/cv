@@ -29,6 +29,7 @@ h3 {
   color: #5dc0a6;
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
+  font-size: 1.6rem;
 }
 
 h4 {
@@ -43,6 +44,7 @@ h4 {
 p{
   line-height: 2;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -60,6 +62,7 @@ a:hover {
   padding-top: 100px;
   padding-bottom: 0;
   position: relative;
+  height: 700px
 }
 
 .middle-container {
@@ -82,17 +85,19 @@ margin: 100px 0;
 
 .top-cloud {
   position: absolute;
-  top: 150px;
-  right: 250px;
+  top: 20%;
+  right: 15%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 15%;
+  bottom: 40%;
 }
 .mountain{
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
   margin-bottom: 0;
 }
 .honeydewd-image{
@@ -146,7 +151,7 @@ margin: 100px 0;
 }
 .copyright{
   color: #5dc0a6;
-  font-size: 75%;
+  font-size: .75rem;
   margin-bottom: 0;
   padding-top: 25px;
   padding-bottom: 50px;

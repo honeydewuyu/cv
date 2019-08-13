@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+hr{
+  border: 0;
+  border-top: 5px dotted #ffd3de;
+  width: 5%;
+  margin: 100px auto;
+  clear: left;
+}
+h1 {
+  color: #3f8f8d;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.4rem;
+  margin: 100px auto 25px auto;
+}
+
+h2 {
+  color: #3f8f8d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5dc0a6;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+h4 {
+  color: #3f8f8d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2;
+  margin-top: 0;
+}
+
+p{
+  line-height: 2;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #377573;
+}
+
+/***************************CLASS SECLECTOR****************************/
+.menu {
+  background-color: #ffd3de;
+  position: fixed;
+}
+
+.top-container {
+  background-color: #ffd3de;
+  padding-top: 100px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.honeydewd {
+  width: 25%;
+  height: auto;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.mountain{
+  position: relative;
+  margin-bottom: 0;
+}
+.honeydewd-image{
+  width: 30%;
+  height: auto;
+  margin-right: 30px;
+  float: left;
+}
+.honeydewd2-image{
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.butn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #5dc0a6;
+  font-size: 20px;
+  background: #3f8f8d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #377573;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #ffd3de;
+  padding-top: 50px;
+  margin-bottom: 0;
+
+}
+.footer-link{
+  color: #5dc0a6;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+}
+.footer-home{
+  color: #5dc0a6;
+}
+.copyright{
+  color: #5dc0a6;
+  font-size: 75%;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
